@@ -1,0 +1,105 @@
+.bannerSection {
+  height: 100%;
+
+  background-size: cover;
+  background-image: url("./photos/banner-bg.jpg");
+}
+.parentBanner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.textArea {
+  padding-top: 40px;
+  padding-left: 28px;
+  width: 50%;
+}
+.parentBanner .textArea h3 {
+  color: #19ce67;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.parentBanner .textArea p {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.imgArea img {
+  width: 270px;
+}
+.imgArea {
+  width: 50%;
+}
+
+.parentBanner .textArea .btn {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+.parentBanner .textArea .buttonone {
+  color: white;
+  background-color: #19ce67;
+  padding: 4px 37px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+.parentBanner .textArea .buttonone:hover {
+  background-color: blue;
+  color: red;
+}
+
+.parentBanner .textArea .buttonTwo {
+  color: white;
+  background-color: black;
+  padding: 4px 27px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+}
+.parentBanner .textArea .buttonTwo:hover {
+  background-color: blue;
+  color: red;
+}
+
+/*BANNER MEDIA SECTION STYLE*/
+@media only screen and (max-width: 600px) {
+  .imgArea {
+    display: none;
+  }
+  .textArea {
+    padding-top: 80px;
+    padding-left: 10px;
+    width: 100%;
+  }
+
+  .parentBanner .textArea .btn {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  .parentBanner .textArea .btn .buttonone {
+    color: white;
+    background-color: #19ce67;
+    padding: 4px 17px;
+    padding: 8px 17px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .parentBanner .textArea .buttonTwo {
+    color: white;
+    background-color: black;
+    padding: 8px 25px;
+    font-size: 10px;
+
+    font-size: 10px;
+    border-radius: 3px;
+
+    margin-top: 10px;
+  }
+}

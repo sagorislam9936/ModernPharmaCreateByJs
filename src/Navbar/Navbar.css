@@ -1,0 +1,61 @@
+body {
+  font-family: "Permanent Marker", cursive;
+  font-family: "Rubik", sans-serif;
+  background-color: #f4f4f4;
+}
+.containar {
+  padding: 0px 100px;
+}
+.Pharma:hover {
+  background-color: red;
+  color: white;
+  border-radius: 28px;
+}
+
+.navContainar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  background-color: #f8f9fa;
+
+  font-size: 15px;
+}
+.navContainar {
+  color: #19ce67;
+}
+.span {
+  color: black;
+}
+.navArea ul {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  height: 100%;
+  font-size: 12px;
+  padding-right: 250px;
+}
+.navArea ul li {
+  list-style: none;
+}
+.navArea ul li a {
+  color: #19ce67;
+  text-decoration: none;
+}
+.navArea ul li a:hover {
+  background-color: green;
+  color: red;
+}
+.navContainar .fa-solid {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navArea {
+    display: none;
+  }
+  .navContainar .fa-solid {
+    display: flex;
+    padding-top: 8px;
+  }
+}

@@ -1,0 +1,116 @@
+.title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.title h2 {
+  color: #19ce67;
+  font-size: 27px;
+}
+
+.title p {
+  font-size: 12px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.prductParent {
+  height: 100%;
+}
+.Products .prductParent {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+  text-align: center;
+}
+.Products .prductParent .ProductChildOne {
+  border: 1px solid rgba(210, 187, 187, 0.721);
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  height: 100%;
+  width: 100%;
+}
+
+.Products .prductParent .ProductChildOne .img {
+  width: 45%;
+  margin: auto;
+}
+
+.Products .prductParent .ProductChildOne h4 {
+  color: #19ce67;
+}
+.Products .prductParent .ProductChildOne p {
+  margin-top: 2px;
+  margin-bottom: 7px;
+  font-size: 15px;
+  opacity: 55px;
+}
+
+.Products .prductParent .ProductChildOne i {
+  color: goldenrod;
+  padding-bottom: 12px;
+}
+
+.ProductChildOne h6 {
+  background-color: #19ce67;
+  text-align: center;
+  font-size: 13px;
+  border-bottom-right-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+.ProductChildOne h6:hover {
+  background-color: yellow;
+}
+.ProductChildOne h6 button {
+  color: white;
+  background-color: #19ce67;
+  border: none;
+}
+.Browse {
+  text-align: center;
+}
+.Browse button {
+  border: none;
+  margin-top: 12px;
+  border-radius: 3px;
+  color: white;
+  background-color: #19ce67;
+  padding: 4px 15px;
+  font-size: 13px;
+}
+button:hover {
+  background-color: red;
+}
+.ProductChildOne h6 button:hover {
+  background-color: red;
+}
+
+/* PRODUCTS AREA SECTION*/
+@media only screen and (max-width: 600px) {
+  .title h2 {
+    font-size: 15px;
+    color: #19ce67;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .title p {
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Products .prductParent {
+    display: block;
+  }
+  .Products .prductParent {
+    padding-bottom: 10px;
+  }
+  .Products .prductParent .ProductChildOne {
+    border-radius: 15px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(210, 187, 187, 0.721);
+
+    background-color: #f8f9fa;
+  }
+}
