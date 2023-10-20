@@ -19,7 +19,7 @@ const Bannar = () => {
             </div>
           </div>
           <div className="imgArea">
-         <img src="public/Photo/banner-doc.png" alt="" />
+         <img src="public/Photo/banner-doc.png" alt="First Image" />
           </div>
         </div>
       </section>
