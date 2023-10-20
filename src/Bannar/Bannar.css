@@ -2,7 +2,7 @@
   height: 100%;
 
   background-size: cover;
-  background-image: url("./photos/banner-bg.jpg");
+  background-image: url("public/Photo/banner-bg.jpg");
 }
 .parentBanner {
   display: grid;

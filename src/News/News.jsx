@@ -16,7 +16,7 @@ const News = () => {
 
         <div className="parentNews">
           <div className="newsChildOne">
-            <img src="./photos/news1.webp" alt="product one" className="img" />
+            <img src="public/Photo/news1.webp" alt="img one" className="img" />
             <div className="date">
               <i className="fa-solid fa-calendar-days"> </i>
               <h6>24 May 21</h6>
@@ -32,7 +32,7 @@ const News = () => {
           </div>
 
           <div className="newsChildOne">
-            <img src="./photos/news2.webp" alt="product one" className="img" />
+            <img src="public/Photo/news2.webp" alt="img two" className="img" />
             <div className="date">
               <i className="fa-solid fa-calendar-days"> </i>
               <h6>24 May 21</h6>
@@ -48,7 +48,7 @@ const News = () => {
           </div>
 
           <div className="newsChildOne">
-            <img src="./photos/news3.webp" alt="product one" className="img" />
+            <img src="public/Photo/news3.webp" alt="img There" className="img" />
             <div className="date">
               <i className="fa-solid fa-calendar-days"> </i>
               <h6>24 May 21</h6>

@@ -16,7 +16,7 @@ const Product = () => {
         <div className="prductParent">
           <div className="ProductChildOne">
             <img
-              src="./photos/product01.webp"
+              src="public/Photo/product01.webp"
               alt="product one"
               className="img"
             />
@@ -34,8 +34,8 @@ const Product = () => {
 
           <div className="ProductChildOne">
             <img
-              src="./photos/product02.webp"
-              alt="product one"
+              src="public/Photo/product02.webp"
+              alt="product Two"
               className="img"
             />
             <h4>Hand Sanitizer Covid-19</h4>
@@ -52,8 +52,8 @@ const Product = () => {
 
           <div className="ProductChildOne">
             <img
-              src="./photos/product03.webp"
-              alt="product one"
+              src="public/Photo/product03.webp"
+              alt="product Three"
               className="img"
             />
             <h4>Medical Thermometer</h4>
@@ -70,8 +70,8 @@ const Product = () => {
 
           <div className="ProductChildOne">
             <img
-              src="./photos/product04.webp"
-              alt="product one"
+              src="public/Photo/product04.webp"
+              alt="product Four"
               className="img"
             />
             <h4>New Temperature Gun</h4>
@@ -88,8 +88,8 @@ const Product = () => {
 
           <div className="ProductChildOne">
             <img
-              src="./photos/product05.webp"
-              alt="product one"
+              src="public/Photo/product05.webp"
+              alt="product Five"
               className="img"
             />
             <h4>Lab N95 Face Mask</h4>
@@ -106,8 +106,8 @@ const Product = () => {
 
           <div className="ProductChildOne">
             <img
-              src="./photos/product06.webp"
-              alt="product one"
+              src="public/Photo/product06.webp"
+              alt="product Six"
               className="img"
             />
             <h4>Hand SanitizerCovid-19</h4>
@@ -124,8 +124,8 @@ const Product = () => {
 
           <div className="ProductChildOne">
             <img
-              src="./photos/product07.webp"
-              alt="product one"
+              src="public/Photo/product07.webp"
+              alt="product Seven"
               className="img"
             />
             <h4>Medical & Health</h4>
@@ -142,8 +142,8 @@ const Product = () => {
 
           <div className="ProductChildOne">
             <img
-              src="./photos/product08.webp"
-              alt="product one"
+              src="public/Photo/product08.webp"
+              alt="product Eight"
               className="img"
             />
             <h4>Inhaler Pressure Meter</h4>
