@@ -14,25 +14,25 @@ const Team = () => {
         </div>
         <div className="parentTeam">
           <div className="teamChildOne">
-            <img src="public/Photo/team1.jpg" alt="img one" className="img" />
+            <img src="/Photo/team1.jpg" alt="img one" className="img" />
             <h4>Dr. Kenneth Hale</h4>
             <p>Medical Director</p>
           </div>
 
           <div className="teamChildOne">
-            <img src="public/Photo/team2.jpg" alt="img two" className="img" />
+            <img src="/Photo/team2.jpg" alt="img two" className="img" />
             <h4>Dr. Aoron Weir</h4>
             <p>Medical Director</p>
           </div>
 
           <div className="teamChildOne">
-            <img src="public/Photo/team3.jpg" alt="img three" className="img" />
+            <img src="/Photo/team3.jpg" alt="img three" className="img" />
             <h4>Dr. Md Ashraful Islam</h4>
             <p>Medical Director</p>
           </div>
 
           <div className="teamChildOne">
-            <img src="public/Photo/team4.jpg" alt="img four" className="img" />
+            <img src="/Photo/team4.jpg" alt="img four" className="img" />
             <h4>Dr. Shawn Cole</h4>
             <p>Medical Director</p>
           </div>
